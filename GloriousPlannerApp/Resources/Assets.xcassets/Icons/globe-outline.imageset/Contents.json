@@ -1,6 +1,9 @@
 {
   "images" : [
-
+    {
+      "filename" : "globe-outline.svg",
+      "idiom" : "universal"
+    }
   ],
   "info" : {
     "author" : "xcode",

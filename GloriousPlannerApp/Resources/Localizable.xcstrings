@@ -1,0 +1,50 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "OnboadingFirstPageTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Best app for Tracking your projects"
+          }
+        }
+      }
+    },
+    "OnboardingFirstPageSubtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semper in cursus magna et eu varius nunc adipiscing. Elementum justo, laoreet id sem. "
+          }
+        }
+      }
+    },
+    "OnboardingSecondPageSubtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semper in cursus magna et eu varius nunc adipiscing. Elementum justo, laoreet id sem. "
+          }
+        }
+      }
+    },
+    "OnboardingThirdPageSubtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semper in cursus magna et eu varius nunc adipiscing. Elementum justo, laoreet id sem. "
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

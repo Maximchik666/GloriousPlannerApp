@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1352434E1FD4471D01CF5FB0 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 21616DB4EC69520A835785A7 /* Localizable.xcstrings */; };
 		142E8FB8B97D6B6B92E95225 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B33F6B982F309499F0D7E6 /* ContentView.swift */; };
+		31458E055776597F4535CCA6 /* InterFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F2C013C14EC83FCF60D3645 /* InterFont.ttf */; };
 		3C93EAADFC5699199CB59399 /* GloriousPlannerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE2652E1DC5ECBC3D6DE0A8 /* GloriousPlannerAppTests.swift */; };
 		42B6AA72BC0B123CBCD33387 /* TuistBundle+GloriousPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D81B84D042D5E4BBA5E9BBE /* TuistBundle+GloriousPlannerApp.swift */; };
-		4BA520A2DF87578AA69D4C92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460530A1C029F4625A29E86E /* Preview Assets.xcassets */; };
+		4B8151AF5037951B986A99F9 /* TuistFonts+GloriousPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542A5BEC2CD8E75DC6148FB4 /* TuistFonts+GloriousPlannerApp.swift */; };
 		717BBA58AD7082C65590FC10 /* GloriousPlannerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A913AC9AFA0E7199680613B /* GloriousPlannerAppApp.swift */; };
 		C226868DA41A1BF8EA3636E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497DA676DFCB45B0232D78FC /* Assets.xcassets */; };
+		D9B77E5C58EFD18CF49AB223 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118F14C334A3ABE73AB4955E /* Colors.xcassets */; };
 		F3404A17EBAF238D726079A6 /* TuistAssets+GloriousPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF22798C10E7110EC6587A29 /* TuistAssets+GloriousPlannerApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,11 +53,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		118F14C334A3ABE73AB4955E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		21616DB4EC69520A835785A7 /* Localizable.xcstrings */ = {isa = PBXFileReference; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		3D81B84D042D5E4BBA5E9BBE /* TuistBundle+GloriousPlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+GloriousPlannerApp.swift"; sourceTree = "<group>"; };
-		460530A1C029F4625A29E86E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		497DA676DFCB45B0232D78FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		542A5BEC2CD8E75DC6148FB4 /* TuistFonts+GloriousPlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+GloriousPlannerApp.swift"; sourceTree = "<group>"; };
 		75051572970EE1B0BC21985E /* GloriousPlannerApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GloriousPlannerApp-Info.plist"; sourceTree = "<group>"; };
 		8A913AC9AFA0E7199680613B /* GloriousPlannerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloriousPlannerAppApp.swift; sourceTree = "<group>"; };
+		8F2C013C14EC83FCF60D3645 /* InterFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterFont.ttf; sourceTree = "<group>"; };
 		B5B33F6B982F309499F0D7E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6F4A0B7008C45A8AEAB6E4B /* GloriousPlannerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloriousPlannerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA528BEC82E54FEA770AE34 /* GloriousPlannerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GloriousPlannerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,14 +94,6 @@
 				B6F4A0B7008C45A8AEAB6E4B /* GloriousPlannerAppTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		28E5F4A2D31C72485633A65D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				460530A1C029F4625A29E86E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		6C67EEF9E1A51821600CAB34 = {
@@ -163,8 +161,10 @@
 		B792D6BAE0D75D49033F494F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				28E5F4A2D31C72485633A65D /* Preview Content */,
 				497DA676DFCB45B0232D78FC /* Assets.xcassets */,
+				118F14C334A3ABE73AB4955E /* Colors.xcassets */,
+				8F2C013C14EC83FCF60D3645 /* InterFont.ttf */,
+				21616DB4EC69520A835785A7 /* Localizable.xcstrings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -174,6 +174,7 @@
 			children = (
 				EF22798C10E7110EC6587A29 /* TuistAssets+GloriousPlannerApp.swift */,
 				3D81B84D042D5E4BBA5E9BBE /* TuistBundle+GloriousPlannerApp.swift */,
+				542A5BEC2CD8E75DC6148FB4 /* TuistFonts+GloriousPlannerApp.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -256,7 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C226868DA41A1BF8EA3636E4 /* Assets.xcassets in Resources */,
-				4BA520A2DF87578AA69D4C92 /* Preview Assets.xcassets in Resources */,
+				D9B77E5C58EFD18CF49AB223 /* Colors.xcassets in Resources */,
+				31458E055776597F4535CCA6 /* InterFont.ttf in Resources */,
+				1352434E1FD4471D01CF5FB0 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +287,7 @@
 			files = (
 				F3404A17EBAF238D726079A6 /* TuistAssets+GloriousPlannerApp.swift in Sources */,
 				42B6AA72BC0B123CBCD33387 /* TuistBundle+GloriousPlannerApp.swift in Sources */,
+				4B8151AF5037951B986A99F9 /* TuistFonts+GloriousPlannerApp.swift in Sources */,
 				142E8FB8B97D6B6B92E95225 /* ContentView.swift in Sources */,
 				717BBA58AD7082C65590FC10 /* GloriousPlannerAppApp.swift in Sources */,
 			);
@@ -361,7 +365,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Derived/InfoPlists/GloriousPlannerApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,7 +379,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -399,7 +403,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GloriousPlannerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GloriousPlannerApp";
 				TEST_TARGET_NAME = GloriousPlannerApp;
@@ -472,7 +476,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Derived/InfoPlists/GloriousPlannerApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,7 +494,7 @@
 				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -518,7 +522,7 @@
 				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GloriousPlannerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GloriousPlannerApp";
 				TEST_TARGET_NAME = GloriousPlannerApp;

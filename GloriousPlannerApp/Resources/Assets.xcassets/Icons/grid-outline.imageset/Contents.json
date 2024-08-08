@@ -1,6 +1,9 @@
 {
   "images" : [
-
+    {
+      "filename" : "grid-outline.svg",
+      "idiom" : "universal"
+    }
   ],
   "info" : {
     "author" : "xcode",

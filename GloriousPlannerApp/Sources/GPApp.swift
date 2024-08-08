@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct GloriousPlannerAppApp: App {
+struct GPApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

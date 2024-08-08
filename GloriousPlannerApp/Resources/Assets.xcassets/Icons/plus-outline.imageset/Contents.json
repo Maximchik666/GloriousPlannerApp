@@ -1,6 +1,9 @@
 {
   "images" : [
-
+    {
+      "filename" : "plus-outline.svg",
+      "idiom" : "universal"
+    }
   ],
   "info" : {
     "author" : "xcode",

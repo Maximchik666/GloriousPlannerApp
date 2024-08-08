@@ -1,6 +1,9 @@
 {
   "images" : [
-
+    {
+      "filename" : "Product Name.svg",
+      "idiom" : "universal"
+    }
   ],
   "info" : {
     "author" : "xcode",

@@ -1,6 +1,9 @@
 {
   "images" : [
-
+    {
+      "filename" : "eye-off-outline.svg",
+      "idiom" : "universal"
+    }
   ],
   "info" : {
     "author" : "xcode",
